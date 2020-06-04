@@ -1,0 +1,84 @@
+body{
+    background: white;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.topo{
+    background: rgba(255, 0, 0, 0.315);
+    width: 300px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../imagens/capa.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-align: center;
+}
+.header img{
+    width: 60px;
+}
+.header a{
+    text-decoration: none;
+    background-color: teal;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+    color: rgb(255, 242, 242);
+    border-radius: 10px;
+}
+/* Corpo */
+.flex{
+    max-width: 800px;
+    background: #ffffff59;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex > div{
+    padding: 20px;
+    margin: 10px;
+    background: #666666;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dica{
+    
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    text-align: center;
+}
+
+.dica img{
+    width: 100%;
+    max-width: 500px;
+}
+div a{
+    text-decoration: none;
+    background: teal;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    background: rgb(125, 162, 168);
+    padding: 5px;
+    text-align: center;
+}
+footer img{
+    width: 20px;
+    padding: 10px;
+}
